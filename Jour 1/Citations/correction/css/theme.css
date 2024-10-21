@@ -1,0 +1,45 @@
+/* Ce code pourra être ajouté à la feuille de style commune */
+q {
+	font-style: italic;
+	/* quotes : ; pour changer les indicateurs de quotes */
+}
+
+blockquote {
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+blockquote p::before{
+	content:"“ ";
+}
+blockquote p::after{
+	content:" ”"
+}
+blockquote cite{
+	font-style: normal;
+	color: deepskyblue;
+}
+
+/*q {
+	font-style: italic;
+	quotes: "❝ " " ❞";
+}
+
+blockquote {
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+blockquote p::before {
+	content: '« ';
+}
+
+blockquote p::after {
+	content: ' »';
+}
+
+blockquote cite {
+	font-style: normal;
+	color: deepskyblue;
+}
+*/
