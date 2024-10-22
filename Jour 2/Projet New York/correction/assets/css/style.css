@@ -1,0 +1,103 @@
+/*******************************************************************
+ *                          POLICES                                *
+ *******************************************************************/
+@font-face {
+    font-family :'Courgette';
+    src : url(../fonts/Courgette-Regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+/*******************************************************************
+ *                          GENERALITIES                           *
+ *******************************************************************/
+body {
+    font-size: 18px;
+    margin: 0px;
+    line-height: 1.5;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #444;
+    
+}
+article {
+    text-align: justify;
+}
+header > ol > li > a{
+    text-decoration: none;
+}
+/* *****************************************************************
+                              MAIN LAYOUT
+***************************************************************** */
+.container {
+    width: 980px;
+    margin : auto;
+}
+h1 {
+    font-size: 40px;
+    color: #003884;
+    font-family: 'Courgette';
+    text-align: center;
+}
+h2 {
+    font-size: 35px;
+    color: #4f89b9;
+    font-family:'Courgette';
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    color: #003884;
+    font-family:'Courgette';
+    text-align: center;
+}
+.citation {
+    font-size: 25px;
+    color: #003884;
+    background-color:#d7e1ef;
+    font-family:'Courgette';
+    text-align: center;
+}
+.menu {
+    font-size: 20px;
+    color: #003884;
+    font-family: 'Courgette';
+}
+.img-left {
+    float: left;
+    margin-right: 1em;
+}
+.img-right {
+    float: right;
+    margin-left: 1em;
+}
+.img-center {
+    display: block;
+    margin-inline: auto; 
+}
+footer > p:first-of-type {
+    font-family: 'Courgette';
+    font-size: 30px;
+    color: #003884;
+}
+footer{
+    text-align: center;
+}
+footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-top: 2px solid #003884;
+}
+.fatBlue{
+    font-weight: bold;
+    color: #003884;
+}
+.lightBlueItalic {
+    font-style: italic;
+    color: #4f89b9;
+}
+.clear {
+    clear: both;
+}
